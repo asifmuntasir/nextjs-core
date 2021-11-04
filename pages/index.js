@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,6 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <h1 className="bg-gray border-b-2">Assalamu Alaikum</h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -47,6 +49,13 @@ export default function Home() {
             <h2>Deploy &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+
+          <a href="https://asifmuntasir.github.io/" className={styles.card}>
+            <h2>Portfolio &rarr;</h2>
+            <p>
+              Visit my portfolio and see my projects.
             </p>
           </a>
         </div>
