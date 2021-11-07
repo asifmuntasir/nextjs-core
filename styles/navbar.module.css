@@ -1,0 +1,36 @@
+.navbar{
+    width: 1100px;
+    margin: auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    font-size: 30px;
+}
+
+.title{
+    background-color: black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.menu a{
+    margin: 10px 15px;
+    transition: .4s all;
+}
+
+.menu a:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
